@@ -1,13 +1,13 @@
-package com.yourname.yourmodid.events;
+package com.mrmacky.samplecraft.events;
 
 
-import com.yourname.yourmodid.YourModID;
+import com.mrmacky.samplecraft.SampleCraft;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.living.LivingDamageEvent;
 
-@EventBusSubscriber(modid = YourModID.MOD_ID, bus = EventBusSubscriber.Bus.GAME)
-public class YMIEvents {
+@EventBusSubscriber(modid = SampleCraft.MOD_ID, bus = EventBusSubscriber.Bus.GAME)
+public class SCEvents {
 
     @SubscribeEvent
     public static void doAThing(LivingDamageEvent.Pre event) {
