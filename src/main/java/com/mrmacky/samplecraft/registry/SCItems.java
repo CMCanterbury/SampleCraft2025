@@ -19,14 +19,14 @@ public class SCItems {
 
     //Items go here
     public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.register("example_item",
-            () -> new Item(new Item.Properties()
-                    .stacksTo(200)
-                    .fireResistant()
-                    .food(
-                            new FoodProperties(10, 2, true, 5,
-                                    Optional.of(Items.DIAMOND.getDefaultInstance()),
-                                    List.of(new FoodProperties.PossibleEffect(() -> new MobEffectInstance(MobEffects.DARKNESS, 1000), 1))))
-                    ));
+            () -> new Item(new Item.Properties()));
+//                    .stacksTo(200)
+//                    .fireResistant()
+//                    .food(
+//                            new FoodProperties(10, 2, true, 5,
+//                                    Optional.of(Items.DIAMOND.getDefaultInstance()),
+//                                    List.of(new FoodProperties.PossibleEffect(() -> new MobEffectInstance(MobEffects.DARKNESS, 1000), 1))))
+//                    ));
 
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
