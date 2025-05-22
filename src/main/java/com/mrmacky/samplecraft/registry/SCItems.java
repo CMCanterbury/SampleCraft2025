@@ -1,6 +1,7 @@
 package com.mrmacky.samplecraft.registry;
 
 import com.mrmacky.samplecraft.SampleCraft;
+import com.mrmacky.samplecraft.items.ThronglerItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -19,7 +20,7 @@ public class SCItems {
 
     //Items go here
     public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.register("example_item",
-            () -> new Item(new Item.Properties()));
+            () -> new ThronglerItem(new Item.Properties()));
 //                    .stacksTo(200)
 //                    .fireResistant()
 //                    .food(
