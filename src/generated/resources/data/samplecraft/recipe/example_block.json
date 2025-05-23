@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "E": {
-      "item": "samplecraft:example_item"
-    },
     "D": {
       "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "samplecraft:throngler"
     }
   },
   "pattern": [
@@ -15,7 +15,7 @@
     "EDE"
   ],
   "result": {
-    "count": 1,
+    "count": 2,
     "id": "samplecraft:example_block"
   }
 }

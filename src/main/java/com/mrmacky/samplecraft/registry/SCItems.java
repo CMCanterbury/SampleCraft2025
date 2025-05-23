@@ -19,7 +19,7 @@ public class SCItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(SampleCraft.MOD_ID);
 
     //Items go here
-    public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.register("example_item",
+    public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.register("throngler",
             () -> new ThronglerItem(new Item.Properties()));
 //                    .stacksTo(200)
 //                    .fireResistant()

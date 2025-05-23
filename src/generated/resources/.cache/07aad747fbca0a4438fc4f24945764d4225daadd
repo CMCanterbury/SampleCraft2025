@@ -1,0 +1,4 @@
+// 1.21.1	2025-05-23T15:06:25.7800014	Tags for minecraft:block mod id samplecraft
+18027bd9716402d80648326724fc2c0985fd9fc4 data/minecraft/tags/block/armadillo_spawnable_on.json
+18027bd9716402d80648326724fc2c0985fd9fc4 data/minecraft/tags/block/mineable/pickaxe.json
+18027bd9716402d80648326724fc2c0985fd9fc4 data/minecraft/tags/block/needs_iron_tool.json
